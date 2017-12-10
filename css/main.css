@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+ background-color: #db3a60;
+ height: 80px;
+ }
+ nav .animales a {
+  margin-left: 2%;
+  text-decoration: none;
+  color: black;
+  outline: 1px solid black;
+ }
+ nav ul{
+ margin-left: 70%; 
+ 
+
+ }
+ nav ul li  {
+ display: inline-block;
+  margin-left: 5%;
+  
+ }
+
+ 
+ 
