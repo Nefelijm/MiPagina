@@ -12,7 +12,10 @@ nav {
 
  nav:hover{
  background: url(https://4.bp.blogspot.com/-v-X29yGVRX4/WJYfAOho1qI/AAAAAAAAAGk/Be6-3AO-krMslM7mM2E33wADF_yZ90k5QCLcB/s400/rain%2Bgif%2B5.gif);
- }
+ background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+  }
  nav ul li a:hover{
   color:rgb(240, 33, 71);
  }
@@ -67,22 +70,21 @@ nav {
     border: 2px solid white;
     margin: 0 5px;
     background:rgb(216, 62, 116)
-    
-
- }
+     }
  
 
 /* ESTILOS DE LA PRIMERA SECCION  */
 .col-xs-10 {
-    /* background-color: rgb(137, 66, 66); */
-    text-align: justify; 
-    font-family: 'Bungee', cursive;
-    height: 400px;  
+text-align: justify; 
+font-family: 'Bungee', cursive;
+ height: 400px;  
 }
+
+
 .col-xs-2 {
-    background-color: rgb(152, 234, 171);
-    font-size: 17px;    
-    height: 380px; 
+ background-color: rgb(152, 234, 171);
+ font-size: 17px;    
+ height: 380px; 
     
 }
 
@@ -121,6 +123,8 @@ footer p {
   font-size: 1.5em;
 }
 
+/* ESTILOS DE SECTION EN EL DESKTOP */
+
  header section {
    background-image: url('../assets/img/perrito.png');
    background-repeat: no-repeat;
@@ -129,7 +133,7 @@ footer p {
    height: 400px;
  }
  
- /* menu hamburguesa */
+ /* RESPONSIVE MENU HAMBURGUESA  */
 
 @media(max-width: 992px){
 
