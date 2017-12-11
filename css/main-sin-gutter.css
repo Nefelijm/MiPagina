@@ -20,103 +20,118 @@ content: '';
     padding: 2em;
 }
 
-.col-xs-1 {
+
+
+
+
+ .col-xs-1 {
   width: 8.33333333%;
-}
+ }
 
-.col-xs-2 {
+ .col-xs-2 {
   width: 16.66666667%;
-}
+ }
 
-.col-xs-3 {
+ .col-xs-3 {
   width: 25%;
-}
+ }
 
-.col-xs-4 {
+ .col-xs-4 {
   width: 33.33333333%;
-}
+ }
 
-.col-xs-5 {
+ .col-xs-5 {
   width: 41.66666667%;
-}
+ }
 
-.col-xs-6 {
+ .col-xs-6 {
   width: 50%;
-}
+ }
 
-.col-xs-7 {
+ .col-xs-7 {
   width: 58.33333333%;
-}
+ }
 
-.col-xs-8 {
+ .col-xs-8 {
   width: 66.66666667%;
-}
+ }
 
-.col-xs-9 {
+ .col-xs-9 {
   width: 75%;
-}
+ }
 
-.col-xs-10 {
+ .col-xs-10 {
   width: 83.33333333%;
-}
+ }
 
-.col-xs-11 {
+ .col-xs-11 {
   width: 91.66666667%;
-}
+ }
 
-.col-xs-12 {
+ .col-xs-12 {
   width: 100%;
-}
-
-.col-xs-offset-1 {
+ }
+ 
+ .col-xs-offset-1 {
   width: 8.33333333%;
-}
+ }
 
-.col-xs-offset-2 {
+ 
+ .col-xs-offset-2 {
   width: 16.66666667%;
-}
+ }
 
-.col-xs-offset-3 {
+ .col-xs-offset-3 {
   width: 25%;
-}
+ }
 
-.col-xs-offset-4 {
+ .col-xs-offset-4 {
   width: 33.33333333%;
-}
+ }
 
-.col-xs-offset-5 {
+ .col-xs-offset-5 {
   width: 41.66666667%;
-}
+ }
 
-.col-xs-offset-6 {
+ .col-xs-offset-6 {
   width: 50%;
-}
+ }
 
-.col-xs-offset-7 {
+ .col-xs-offset-7 {
   width: 58.33333333%;
-}
+ }
 
-.col-xs-offset-8 {
+ .col-xs-offset-8 {
   width: 66.66666667%;
-}
+ }
 
-.col-xs-offset-9 {
+ .col-xs-offset-9 {
   width: 75%;
-}
+ }
 
-.col-xs-offset-10 {
+ .col-xs-offset-10 {
   width: 83.33333333%;
-}
+ }
 
-.col-xs-offset-11 {
+ .col-xs-offset-11 {
   width: 91.66666667%;
-}
+ }
 
-.col-xs-offset-12 {
+ .col-xs-offset-12 {
   width: 100%;
-}
+ }
+ 
+ header section {
+   background-image: url('../assets/img/perrito.png');
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size: cover;
+   height: 400px;
+ }
 
-@media (max-width: 500px) {
+
+
+@media(max-width: 992px) {
   .col-sm-1 {
     width: 8.33333333%;
   }
@@ -212,9 +227,12 @@ content: '';
   .col-sm-offset-12 {
     width: 100%;
   }
+   
+  
 }
 
-@media (max-width:750px) {
+
+@media (max-width: 768px) {
   .col-md-1 {
     width: 8.33333333%;
   }
@@ -310,4 +328,6 @@ content: '';
   .col-md-offset-12 {
     width: 100%;
   }
+  
+   
 }
