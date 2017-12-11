@@ -15,8 +15,8 @@ content: '';
 
 [class*='col-']{
     float: left;  
-    outline: 1px solid black;  
-    background-color: burlywood;
+    /* outline: 1px solid black;  
+    background-color: burlywood; */
     padding: 2em;
 }
 
