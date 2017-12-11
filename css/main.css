@@ -53,7 +53,7 @@ nav {
      position: absolute;
      right: 0px;
      top: 20px;
-     
+         
  }
 
   .responsive{
@@ -66,7 +66,9 @@ nav {
     padding: 5px;
     border: 2px solid white;
     margin: 0 5px;
-    display: inline-block;
+    background:rgb(216, 62, 116)
+    
+
  }
  
 
