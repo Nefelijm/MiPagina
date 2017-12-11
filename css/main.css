@@ -16,14 +16,22 @@ nav {
  nav ul li a:hover{
   color:rgb(240, 33, 71);
  }
+
+ nav .animales{
+     display: inline-block;
+ }
  nav .animales a {
   margin-left: 2%;
   text-decoration: none;
   color: white;  
   font-size: 1em;
+  padding: 0 20px;
  }
  nav ul{
  margin-left: 40%; 
+ width: 60%;
+ position: absolute;
+ right: 0;
   }
 
  nav ul li {     
@@ -38,7 +46,29 @@ nav {
      text-decoration: none;
      color: white;
  }
-   
+ header nav .menu {
+
+    color:white;
+     width: 80px;          
+     position: absolute;
+     right: 0px;
+     top: 20px;
+     
+ }
+
+  .responsive{
+  display: none;
+  }
+
+ header nav .menu hr{
+    width: 60px;
+    height: 10px;
+    padding: 5px;
+    border: 2px solid white;
+    margin: 0 5px;
+    display: inline-block;
+ }
+ 
 
 /* ESTILOS DE LA PRIMERA SECCION  */
 .col-xs-10 {
@@ -87,4 +117,35 @@ footer p {
   text-align: center;
   color: white;
   font-size: 1.5em;
+}
+
+ header section {
+   background-image: url('../assets/img/perrito.png');
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size: cover;
+   height: 400px;
+ }
+ 
+ /* menu hamburguesa */
+
+@media(max-width: 992px){
+
+    .responsive {
+        display: block;        
+    }
+
+    .options {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+
+    .responsive {
+        display: block;        
+    }
+    .options {
+        display: none;
+    }
 }

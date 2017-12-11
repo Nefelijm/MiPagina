@@ -119,16 +119,7 @@ content: '';
 
  .col-xs-offset-12 {
   width: 100%;
- }
- 
- header section {
-   background-image: url('../assets/img/perrito.png');
-   background-repeat: no-repeat;
-   background-position:center;
-   background-size: cover;
-   height: 400px;
- }
-
+ } 
 
 
 @media(max-width: 992px) {
